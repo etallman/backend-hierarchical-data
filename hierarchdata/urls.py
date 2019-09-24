@@ -4,13 +4,12 @@ from django.conf.urls import url
 
 from hierarchdata.admin import FileAdmin
 from hierarchdata.models import File
-from hierarchdata.views import home
+from hierarchdata.views import show_files, add_file
 
 admin.site.register(File, FileAdmin)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home, name='home'),
-    # url('', HomeView.as_view(), name="home"), #tweet/
-    
+    path('', show_files, name='filetree'),
+    path('addfile/', add_file),
 ]

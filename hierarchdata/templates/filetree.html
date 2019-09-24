@@ -1,5 +1,7 @@
-<!-- <ul class="root">
-    {% recursetree nodes %}
+<h1>File Tree</h1>
+{% load mptt_tags %}
+<ul>
+    {% recursetree file %}
         <li>
             {{ node.name }}
             {% if not node.is_leaf_node %}
@@ -9,6 +11,6 @@
             {% endif %}
         </li>
     {% endrecursetree %}
-</ul> -->
-{% load static %}
-<h1>Hello</h1>
+</ul>
+
+Add a new file <a href="addfile/">here</a>
