@@ -22,6 +22,6 @@ Open pipenv shell
 
 ## Authors
 <li>Eileen Tallman</li>
-<li>Joe Kaufield -- instructor at Kenzie Academy, designed the assessment</li>
+<li>Joe Kaufeld -- instructor at Kenzie Academy, designed the assessment</li>
 
 
